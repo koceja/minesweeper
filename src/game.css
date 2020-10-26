@@ -1,0 +1,36 @@
+#game {
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+}
+
+
+.row {
+    display: flex;
+    margin: auto;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: 0;
+}
+
+.clicked {
+    background-color: gray;
+}
+
+.empty {
+    background-color: white;
+}
+
+.mine {
+    background-color: green;
+}
+
+.flag {
+    background-color: red;
+}
